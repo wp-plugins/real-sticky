@@ -29,7 +29,7 @@ Links: [Author Homepage](http://www.graphicedit.com/)
 not yet
 
 == Screenshots ==
-not yet
+1. Just name it "Real Sticky" thats it.
 
 == Upgrade Notice ==
 not yet
