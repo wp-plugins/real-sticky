@@ -23,7 +23,7 @@ Links: [Author Homepage](http://www.graphicedit.com/)
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Creat a page and add a text(anything)
 4. You must page name-title(not URL) "Real Sticky" (this is important).
-5. Done
+5. Done!:))
 
 == Frequently Asked Questions ==
 not yet
