@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Real Sticky
-Plugin URI: http://www.graphicedit.com/real-sticky/real-sticky.zip
+Plugin URI: http://wordpress.org/extend/plugins/real-sticky/
 Description: This plugin adds custom Real Sticky Post.
 Version: 1.1.1
 Author: http://profiles.wordpress.org/users/graphicedit/
