@@ -1,11 +1,11 @@
 === Real Sticky ===
 
-Contributors: GraphicEdit
+Contributors: graphicedit
 Donate link: http://www.graphicedit.com/
 Tags: quick, easy, simple, free, real, sticky, page
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: trunk
+Stable tag: 1.1.1
 
 Import a Sticky page to top of site.
 
