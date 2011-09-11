@@ -22,7 +22,7 @@ Import a Sticky page to top of site.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Creat a page and add a text
 4. Do page name-title "Real Sticky"
-5. Done
+5. Done!
 
 == Frequently Asked Questions ==
 not yet
