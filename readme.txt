@@ -11,14 +11,18 @@ Import a Sticky page to top of site.
 
 == Description ==
 
-Import a Sticky page to top of site.
+This plugin Show a Page, your top of site.  
+The page(Real Sticky Page) always show up, 
+even inside the post or categorie(s) page(s). 
+
+Links: [Author Homepage](http://www.graphicedit.com/)
 
 == Installation ==
 
 1. Upload the "Real Sticky" folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Creat a page and add a text
-4. Do page name-title "Real Sticky"
+3. Creat a page and add a text(anything)
+4. Do page name-title(not URL) "Real Sticky" (this is important)
 5. Done
 
 == Frequently Asked Questions ==
