@@ -5,7 +5,7 @@ Donate link: http://www.graphicedit.com/
 Tags: quick, easy, simple, free, real, sticky, page
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.1.1
+Stable tag: 1.2.0
 
 Import a Sticky page to top of site.
 
@@ -22,8 +22,8 @@ Links: [Author Homepage](http://www.graphicedit.com/)
 1. Upload the "Real Sticky" folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Creat a page and add a text(anything)
-4. You must page name-title(not URL) "Real Sticky" (this is important).
-5. Done!:))
+4. Do page name-title(not URL) "Real Sticky" (this is important)
+5. Done
 
 == Frequently Asked Questions ==
 not yet
@@ -36,5 +36,13 @@ not yet
 
 == Changelog ==
 
-= 0.1 =
+
+= 1.2.0 =
+* Added a CSS control  
+* Added a option "page"
+
+
+= 1.1.1 =
 * Initial release
+
+
