@@ -3,7 +3,7 @@
 Plugin Name: Real Sticky
 Plugin URI: http://wordpress.org/extend/plugins/real-sticky/
 Description: This plugin adds custom Real Sticky Post.
-Version: 1.2.0
+Version: 1.2.1
 Author: GraphicEdit
 Author URI: http://www.graphicedit.com/
 
@@ -42,7 +42,7 @@ add_action('admin_menu', 'real_sticky_options');
 	// Custom CSS
 	function real_sticky_css() {
 				
-				$style = get_option('css_style'); 
+				$style = get_option('real_sticky_css_style'); 
 				echo $style;
 				return;
 
@@ -68,7 +68,12 @@ class real_sticky {
 		global $wp_the_query;
 		if ( ( $wp_query === $wp_the_query ) && !is_admin() ) {
 				
-				$page_title = get_page_by_title( 'Real Sticky' );
+				
+				
+				$title = get_option('real_sticky_page_title'); 
+
+				$page_title = get_page_by_title( $title );	
+				
 				$page_id =  $page_title->ID;
 				$page_data = get_page( $page_id, 'display' );
 				$content = apply_filters('the_content', $page_data->post_content);
