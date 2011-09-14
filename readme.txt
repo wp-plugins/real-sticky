@@ -5,7 +5,7 @@ Donate link: http://www.graphicedit.com/
 Tags: quick, easy, simple, free, real, sticky, page, title
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 
 Import a Sticky page to top of site.
 
@@ -36,6 +36,9 @@ not yet
 not yet
 
 == Changelog ==
+
+= 1.2.2 =
+* Minor code tweaks 
 
 = 1.2.1 =
 * Added a "Page Name/Title" select option  

@@ -3,7 +3,7 @@
 Plugin Name: Real Sticky
 Plugin URI: http://wordpress.org/extend/plugins/real-sticky/
 Description: This plugin adds custom Real Sticky Post.
-Version: 1.2.1
+Version: 1.2.2
 Author: GraphicEdit
 Author URI: http://www.graphicedit.com/
 
@@ -76,8 +76,9 @@ class real_sticky {
 				
 				$page_id =  $page_title->ID;
 				$page_data = get_page( $page_id, 'display' );
-				$content = apply_filters('the_content', $page_data->post_content);
-			
+				//$content = apply_filters('the_content', $page_data->post_content);
+				
+				$content = apply_filters('get_the_content', $page_data->post_content);			
 				
 				echo '<!--real-sticky-->';
 				echo '<div id="real-sticky">' . $content . '</div>';
