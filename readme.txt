@@ -11,9 +11,8 @@ Import a Sticky page to top of site.
 
 == Description ==
 
-This plugin Show a Page, your top of site.  
-The page(Real Sticky Page) always show up, 
-even inside the post or categorie(s) page(s). 
+This is a plugin which enables you to show a specific page or a post you choose at the top of your website. 
+It enables you to present the page/post always above, even inside the post or categorie(s) page(s) 
 
 Links: [Author Homepage](http://www.graphicedit.com/)
 
