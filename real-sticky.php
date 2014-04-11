@@ -3,11 +3,11 @@
 Plugin Name: Real Sticky
 Plugin URI: http://graphicedit.com/blog/plugin/real-sticky/
 Description: This plugin adds custom Real Sticky Post.
-Version: 1.2.2
+Version: 1.3.0
 Author: GraphicEdit
 Author URI: http://graphicedit.com/
 
-	Copyright 2011  GraphicEdit  (email : contact@graphicedit.com)
+	Copyright 2014  GraphicEdit  (email : contact@graphicedit.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -26,14 +26,23 @@ Author URI: http://graphicedit.com/
 
 if ( !class_exists( 'real_sticky' ) ) {
 
-add_action( 'wp_head', 'real_sticky_css' );
+	function real_sticky_init()
+	{
+
+// load language files
+load_plugin_textdomain( 'real-sticky', false, dirname( plugin_basename( __FILE__ ) ) .  '/languages/' );
+	}
+
+// Add actions
+add_action('init', 'real_sticky_init');
+add_action('wp_head', 'real_sticky_css' );
 add_action('admin_menu', 'real_sticky_options');
 
 
 	// Options Page
 	function real_sticky_options() {
 	
-		add_options_page('Real Sticky Options', 'Real Sticky Options', 'manage_options', 'real-sticky/options.php');
+	add_options_page( __('Real Sticky Options', 'real-sticky'), __('Real Sticky Options', 'real-sticky'), 'manage_options', 'real-sticky/options.php');
 	
 	}
 
@@ -58,6 +67,7 @@ class real_sticky {
 		
 		add_action( 'loop_start', array( &$this, 'real_sticky_show' ) );
 		
+
 		
 	}
 
@@ -76,13 +86,12 @@ class real_sticky {
 				
 				$page_id =  $page_title->ID;
 				$page_data = get_page( $page_id, 'display' );
-				//$content = apply_filters('the_content', $page_data->post_content);
-				
 				$content = apply_filters('get_the_content', $page_data->post_content);			
 				
 				echo '<!--real-sticky-->';
 				echo '<div id="real-sticky">' . $content . '</div>';
 				echo '<!--real-sticky-->';
+				
 				
 				
 		}

@@ -5,7 +5,7 @@ Donate link: http://graphicedit.com/
 Tags: quick, easy, simple, free, real, sticky, page, title
 Requires at least: 3.0
 Tested up to: 3.0
-Stable tag: 1.2.2
+Stable tag: 1.3.0
 
 Import a Sticky page to top of site.
 
