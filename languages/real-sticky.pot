@@ -1,5 +1,5 @@
-# Copyright (C) 2013 Disable Comments
-# This file is distributed under the same license as the Disable Comments package.
+# Copyright (C) 2014 Real Sticky
+# This file is distributed under the same license as the Real Sticky package.
 msgid ""
 msgstr ""
 "Project-Id-Version: Real Sticky v1.3.0\n"
