@@ -1,0 +1,52 @@
+# Copyright (C) 2014 Real Sticky
+# This file is distributed under the same license as the Real Sticky package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Sticky v1.3.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/disable-comments\n"
+"POT-Creation-Date: 2013-06-19 05:01:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-04-17 09:42+0100\n"
+"Last-Translator: jelena kovacevic <jecajeca260@gmail.com>\n"
+"Language-Team: GraphicEdit <contact@graphicedit.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __();_e()\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: real-sticky.php:45
+msgid "Real Sticky Options"
+msgstr "Opciones de Real Sticky"
+
+#: options.php:3
+msgid "Real Sticky Options "
+msgstr "Opciones de Real Sticky"
+
+#: options.php:12
+msgid "Real Sticky"
+msgstr "Real Sticky"
+
+#: options.php:13
+msgid "Set a Page Title:"
+msgstr "Poner como Título de Página:"
+
+#: options.php:15
+msgid "Please NOT URL, just text"
+msgstr "Por favor SIN URL, solo texto"
+
+#: options.php:15
+msgid "e.g.,: -Real Sticky- or -Real Sticky1- or -Real Sticky B- or -My Page-"
+msgstr "e.j. -Real Sticky- o -Real Sticky1- o -Real Sticky B- o -Mi Página-"
+
+#: options.php:27
+msgid "Set Css Style:"
+msgstr "Establecer Estilo Css:"
+
+#: options.php:57
+msgid "Update Options"
+msgstr "Actualizar Opciones"
