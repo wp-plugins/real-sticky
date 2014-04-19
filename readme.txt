@@ -4,7 +4,7 @@ Contributors: graphicedit
 Donate link: http://graphicedit.com/
 Tags: quick, easy, simple, free, real, sticky, page, title
 Requires at least: 3.0
-Tested up to: 3.0
+Tested up to: 3.9
 Stable tag: 1.3.0
 
 Import a Sticky page to top of site.
@@ -30,6 +30,12 @@ not yet
 == Screenshots ==
 1. Page Title.
 2. Options. 
+
+
+= Translators =
+
+* Spanish (es_ES) - [Jelena Kovacevic](jecajeca260@gmail.com)
+
 
 == Upgrade Notice ==
 not yet
