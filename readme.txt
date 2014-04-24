@@ -34,7 +34,7 @@ not yet
 
 = Translators =
 
-* Spanish (es_ES) - [Jelena Kovacevic](jecajeca260@gmail.com)
+* Spanish (es_ES) - [Andrew Kurtis](andrewk@webhostinghub.com)
 
 
 == Upgrade Notice ==
