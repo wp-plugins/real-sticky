@@ -16,6 +16,9 @@ It enables you to present the page/post always above, even inside the post or ca
 
 Links: [Author Homepage](http://graphicedit.com/)
 
+* Spanish (es_ES) - [Andrew Kurtis](andrewk@webhostinghub.com)
+
+
 == Installation ==
 
 1. Upload the "Real Sticky" folder to the `/wp-content/plugins/` directory
